@@ -1,0 +1,79 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background: #7F00FF; 
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    background: linear-gradient(to right, #E100FF, #7F00FF); 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .container {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background: #fc00ff;
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+background: linear-gradient(to right, #00dbde, #fc00ff); 
+
+  }
+  #password {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width:80%;
+  }
+  .checkbox-group {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background-color: #E100FF;
+  }
+@media (max-width: 768px) {
+  .container {
+    width: 80%; 
+  }
+
+  header {
+    font-size: 28px; 
+  }
+
+  .checkbox-group {
+    font-size: 16px; 
+  }
+
+  button {
+    padding: 8px 16px; 
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  header {
+    font-size: 24px; 
+  }
+
+  #password {
+    width: 90%; 
+  }
+}
+
